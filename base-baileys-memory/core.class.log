@@ -1,0 +1,108 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: 'F9AC07FEFA1985871A2976A1CA04092C',
+    participant: undefined
+  },
+  messageTimestamp: 1698433671,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '584247182145'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_278d0241-3368-447e-9cb0-50bd26fe4e76',
+  keyword: 'key_30da1498-3935-43ec-a60d-7229e96756eb',
+  answer: '🙌 Gracias por contactar a *Prosein*. Indicanos nombre, apellido y correo electrónico. ¿Cómo podemos ayudarte?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 1500,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd95951f6ebee690f2cab61e5cd144beb'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2a53179b-a37e-42f0-a02d-6a98a50e7381',
+  keyword: 'ans_278d0241-3368-447e-9cb0-50bd26fe4e76',
+  answer: 'Nombre',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '84fc2e87713eb5e382d71b6505efa844'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: 'CF007FFFBECCE0086439BFC0A45ED854',
+    participant: undefined
+  },
+  messageTimestamp: 1698433675,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: 'Dhhd',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Dhhd',
+  from: '584247182145'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_66eb0d59-a71e-4629-b658-e476d9f85ccb',
+  keyword: 'ans_2a53179b-a37e-42f0-a02d-6a98a50e7381',
+  answer: 'Gracias  ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '52694bbebd371e96002083a2982cf79c'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_630b8550-22fb-4e52-99e2-2a83053a51d2',
+  keyword: 'ans_66eb0d59-a71e-4629-b658-e476d9f85ccb',
+  answer: 'Apellido',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '6249f958bdffcf45ef2303ff14309027'
+}

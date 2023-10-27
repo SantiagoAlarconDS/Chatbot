@@ -4,24 +4,14 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
+const flowSecundario = addKeyword(['2']).addAnswer('Este mensaje envia tres botones', {
+    buttons: [{ body: 'Boton 1' }, { body: 'Boton 2' }, { body: 'Boton 3' }],
+})
 
-const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswer(
+const flowListaCiudades = addKeyword(['1','3','4','5']).addAnswer(
     [
         '📄 Aquí encontras las documentación recuerda que puedes mejorarla',
         'https://bot-whatsapp.netlify.app/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
-    [
-        '🙌 Aquí encontras un ejemplo rapido',
-        'https://bot-whatsapp.netlify.app/docs/example/',
-        '\n*2* Para siguiente paso.',
     ],
     null,
     null,
@@ -30,41 +20,55 @@ const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
 
 const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
     [
-        '🚀 Puedes aportar tu granito de arena a este proyecto',
-        '[*opencollective*] https://opencollective.com/bot-whatsapp',
-        '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
-        '[*patreon*] https://www.patreon.com/leifermendez',
-        '\n*2* Para siguiente paso.',
+        'Muchas gracias por ponerte en contacto con Prosein. No olvides seguirnos en nuestras redes sociales y página web.',
     ],
     null,
     null,
     [flowSecundario]
 )
 
-const flowDiscord = addKeyword(['discord']).addAnswer(
-    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
+const flowReclamosSugerencias = addKeyword(['6']).addAnswer(
+    ['¿En qué podemos ayudarte?'],
     null,
     null,
     [flowSecundario]
 )
 
+let nombre = ''
 const flowPrincipal = addKeyword(['hola', 'ola', 'alo'])
-    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
+.addAnswer('🙌 Gracias por contactar a *Prosein*. Indicanos nombre, apellido y correo electrónico. ¿Cómo podemos ayudarte?',{delay:1500})
+    .addAnswer('Nombre',{capture:true},(ctx) =>{
+    nombre = ctx.body;
+    console.log(nombre);
+    })
+    .addAnswer(`Gracias ${nombre} `)
+    .addAnswer('Apellido',{capture:true},(ctx) =>{
+        const apellido = ctx.body
+        })
+    .addAnswer('Correo electrónico',{capture:true},(ctx,{fallBack}) =>{
+        if(!ctx.body.includes('@')) {
+            return fallBack()
+        }else{
+            var correo = ctx.body
+        }
+    })
     .addAnswer(
         [
-            'te comparto los siguientes links de interes sobre el proyecto',
-            '👉 *doc* para ver la documentación',
-            '👉 *gracias*  para ver la lista de videos',
-            '👉 *discord* unirte al discord',
+            '👉 *1* Información: Horarios y Ubicaciones',
+            '👉 *2* Catálogo',
+            '👉 *3* Cotizar productos',
+            '👉 *4* Promociones',
+            '👉 *5* Disponibilidad de un Producto',
+            '👉 *6* Reclamos y Sugerencias',
         ],
         null,
         null,
-        [flowDocs, flowGracias, flowTuto, flowDiscord]
+        [flowListaCiudades, flowGracias, flowReclamosSugerencias,flowSecundario]
     )
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([flowPrincipal,flowGracias,flowListaCiudades,flowReclamosSugerencias,flowSecundario])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
