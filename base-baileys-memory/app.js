@@ -8,22 +8,27 @@ const flowSecundario = addKeyword(['2345']).addAnswer('Este mensaje envia tres b
     buttons: [{ body: 'Boton 1' }, { body: 'Boton 2' }, { body: 'Boton 3' }],
 })
 
-const flowCatalogo = addKeyword(['2']).addAnswer(
+const flowDespedida = addKeyword(['2']).addAnswer(
     [
-        '¿Qué catálogo desea ver? Escriba el número de la opción:',
-        '1. Novedades 2023',
-        '2. Novedades Brasil',
-        '3. Vinil',
-        '4. General',
-        'Puede encontrar nuestros catálogos en el siguiente enlace:',
-        'https://prosein.com.ve/catalogos-en-pdf/',
-    ],
-    null,
-    null,
-    [flowSecundario]
+        'Gracias por contactarnos, desde Prosein siempre buscamos ofrecerle la mejor solución✨',
+        'Recuerda que siempre estamos para ti.', 
+        'Síguenos en nuestras rede sociales',
+        'https://www.instagram.com/proseinvenezuela/?hl=es-la',
+        'https://www.tiktok.com/@prosein_venezuela',
+        'Y no olvides pasarte por nuestra web',
+        'https://prosein.com.ve/',
+    ]
 )
 
+
 const flowMostrarSucursales = addKeyword(['1', '2']).addAnswer('ENRTO');
+
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateTime = date+' '+time;
+ 
+console.log(dateTime)
 
 const sucursalesPorCiudad = {
     "ccs": [
@@ -83,7 +88,7 @@ const sucursalesPorCiudad = {
     ]
 };
 
-const flowTiendas = addKeyword(['tiendas', 'sucursales']).addAnswer(
+const flowTiendas = addKeyword(['1','tiendas', 'sucursales']).addAnswer(
     [
         '🏪 Lista de tiendas por ciudad:',
         '1. Caracas',
@@ -138,16 +143,25 @@ const flowTiendas = addKeyword(['tiendas', 'sucursales']).addAnswer(
         }
 });
 
-
-
-
-
-
-
-
-
-
-
+const flowCatalogo = addKeyword(['2']).addAnswer(
+    [
+        '¿Qué catálogo desea ver? Escriba el número de la opción:',
+        '1. Novedades 2023',
+        '2. Novedades Brasil',
+        '3. Vinil',
+        '4. General',
+        'Puede encontrar nuestros catálogos en el siguiente enlace:',
+        'https://prosein.com.ve/catalogos-en-pdf/',
+    ]
+).addAnswer(
+    [   '¿Deseas cotizar algún producto?',
+        '👉 *1* Si',
+        '👉 *2* No',
+    ],
+    null,
+    null,
+    [flowTiendas,flowDespedida]
+)
 
 const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
     [
@@ -159,25 +173,32 @@ const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
 )
 
 const flowReclamosSugerencias = addKeyword(['6']).addAnswer(
-    ['¿En qué podemos ayudarte?'],
-    null,
-    null,
-    [flowSecundario]
-)
-.addAnswer(
-    'Estimado cliente, lamentamos su experiencia. Entendemos su frustración y nos disculpamos por cualquier inconveniente que haya tenido. Nos comprometemos a atender su caso de manera personalizada. Gracias por su paciencia y comprensión.',{delay:1500}
-)
+    ['¿En qué podemos ayudarte?'],{capture:true},
+    (ctx,{fallBack,flowDynamic}) => {
+        const horaActual = new Date().getHours();
+        console.log(horaActual)
+        if (horaActual >= 7 && horaActual < 17) {
+        flowDynamic("Estimado cliente, lamentamos su experiencia.");
+        flowDynamic("Entendemos su frustración y nos disculpamos por cualquier inconveniente que haya tenido.");
+        flowDynamic("En minutos será atendido.");
+        } else if (horaActual >= 17) {
+        flowDynamic("Estimado cliente, lamentamos su experiencia.");
+        flowDynamic("Entendemos su frustración y nos disculpamos por cualquier inconveniente que haya tenido.");
+        flowDynamic("Actualmente nos encontramos cerrados. Próximamente recibirá atención personalizada.");
+        }else {
+            return fallBack();
+        }
+});
 
 let nombre = ''
 const flowPrincipal = addKeyword(['hola', 'ola', 'alo'])
 .addAnswer('¡Gracias por contactar a *Prosein*! 🙌🏼. Indíquenos,  por favor sus siguientes datos: Nombre, apellido y correo electrónico.',{delay:1500})
     .addAnswer('Nombre',{capture:true},(ctx) =>{
-    nombre = ctx.body;
-    console.log(nombre);
+    nombre = ctx.body
     })
-    .addAnswer(`Gracias ${nombre} `)
-    .addAnswer('Apellido',{capture:true},(ctx) =>{
+    .addAnswer('Apellido',{capture:true},(ctx,{flowDynamic}) =>{
         const apellido = ctx.body
+        flowDynamic(`Un placer poderte ayudarte hoy ${nombre} ${apellido}`)
         })
     .addAnswer('Correo electrónico',{capture:true},(ctx,{fallBack}) =>{
         if(!ctx.body.includes('@')) {
