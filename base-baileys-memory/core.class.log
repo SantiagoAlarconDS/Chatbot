@@ -2,26 +2,132 @@
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: 'F9AC07FEFA1985871A2976A1CA04092C',
+    id: 'B2E71DFD55D7DA1655BB4E41AB559AE8',
     participant: undefined
   },
-  messageTimestamp: 1698433671,
+  messageTimestamp: 1698693403,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
-    conversation: 'Hola',
+    conversation: 'Tiendas',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola',
+  body: 'Tiendas',
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_278d0241-3368-447e-9cb0-50bd26fe4e76',
-  keyword: 'key_30da1498-3935-43ec-a60d-7229e96756eb',
-  answer: '🙌 Gracias por contactar a *Prosein*. Indicanos nombre, apellido y correo electrónico. ¿Cómo podemos ayudarte?',
+  ref: 'ans_2b7c6961-5650-4bf5-9cfe-094c1b3c0f0e',
+  keyword: 'key_e9a34292-7062-420d-88cb-eebf754c52b6',
+  answer: '🏪 Lista de tiendas por ciudad:\n' +
+    '1. Caracas\n' +
+    '2. Miranda\n' +
+    '3. La Guaira\n' +
+    '4. Aragua\n' +
+    '5. Carabobo\n' +
+    '6. Lara\n' +
+    '7. Portuguesa\n' +
+    '8. Barinas\n' +
+    '9. Falcón\n' +
+    '10. Zulia\n' +
+    '11. Trujillo\n' +
+    '12. Mérida\n' +
+    '13. Anzoátegui\n' +
+    '14. Nueva Esparta\n' +
+    '15. Bolívar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '4253b20d6ab9cba35dbeb65185904027'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8ebefd7e-1feb-4f18-b4c6-f52dd64fa6fa',
+  keyword: 'ans_2b7c6961-5650-4bf5-9cfe-094c1b3c0f0e',
+  answer: 'Estas son las categorías disponibles:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '54f4797389a4abef4d4cec2df1db1d10'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: 'A60DE01FFC441E4E66C69E5CF76A33B5',
+    participant: undefined
+  },
+  messageTimestamp: 1698693405,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '584247182145'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: '4339244955F039D2E9DB18C2A63354C5',
+    participant: undefined
+  },
+  messageTimestamp: 1698693410,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: '6',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '6',
+  from: '584247182145'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_462196ba-fb24-40d0-97e0-a6b0c080f741',
+  keyword: 'key_5ef90f8b-e8b5-41cd-be35-09b9d7dbe84a',
+  answer: '¿En qué podemos ayudarte?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '221fcb435d77cd35a888b96b1d77f102'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_dc517d99-31e0-4f88-87a3-a9bf3277e7c1',
+  keyword: 'ans_462196ba-fb24-40d0-97e0-a6b0c080f741',
+  answer: 'Estimado cliente, lamentamos su experiencia. Entendemos su frustración y nos disculpamos por cualquier inconveniente que haya tenido. Nos comprometemos a atender su caso de manera personalizada. Gracias por su paciencia y comprensión.',
   options: {
     media: null,
     buttons: [],
@@ -33,49 +139,47 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd95951f6ebee690f2cab61e5cd144beb'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2a53179b-a37e-42f0-a02d-6a98a50e7381',
-  keyword: 'ans_278d0241-3368-447e-9cb0-50bd26fe4e76',
-  answer: 'Nombre',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '84fc2e87713eb5e382d71b6505efa844'
+  refSerialize: '613cabcd6d734125678ba5c9da2cd19f'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: 'CF007FFFBECCE0086439BFC0A45ED854',
+    id: 'A4CBF24226D2C61B4FE81E7DE3D94162',
     participant: undefined
   },
-  messageTimestamp: 1698433675,
+  messageTimestamp: 1698693413,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
-    conversation: 'Dhhd',
+    conversation: 'Tiendas',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Dhhd',
+  body: 'Tiendas',
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_66eb0d59-a71e-4629-b658-e476d9f85ccb',
-  keyword: 'ans_2a53179b-a37e-42f0-a02d-6a98a50e7381',
-  answer: 'Gracias  ',
+  ref: 'ans_2b7c6961-5650-4bf5-9cfe-094c1b3c0f0e',
+  keyword: 'key_e9a34292-7062-420d-88cb-eebf754c52b6',
+  answer: '🏪 Lista de tiendas por ciudad:\n' +
+    '1. Caracas\n' +
+    '2. Miranda\n' +
+    '3. La Guaira\n' +
+    '4. Aragua\n' +
+    '5. Carabobo\n' +
+    '6. Lara\n' +
+    '7. Portuguesa\n' +
+    '8. Barinas\n' +
+    '9. Falcón\n' +
+    '10. Zulia\n' +
+    '11. Trujillo\n' +
+    '12. Mérida\n' +
+    '13. Anzoátegui\n' +
+    '14. Nueva Esparta\n' +
+    '15. Bolívar',
   options: {
     media: null,
     buttons: [],
@@ -87,12 +191,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '52694bbebd371e96002083a2982cf79c'
+  refSerialize: '4253b20d6ab9cba35dbeb65185904027'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_630b8550-22fb-4e52-99e2-2a83053a51d2',
-  keyword: 'ans_66eb0d59-a71e-4629-b658-e476d9f85ccb',
-  answer: 'Apellido',
+  ref: 'ans_8ebefd7e-1feb-4f18-b4c6-f52dd64fa6fa',
+  keyword: 'ans_2b7c6961-5650-4bf5-9cfe-094c1b3c0f0e',
+  answer: 'Estas son las categorías disponibles:',
   options: {
     media: null,
     buttons: [],
@@ -104,5 +208,25 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '6249f958bdffcf45ef2303ff14309027'
+  refSerialize: '54f4797389a4abef4d4cec2df1db1d10'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: 'DEE535800506835A84BEC3D2D5FF4D1D',
+    participant: undefined
+  },
+  messageTimestamp: 1698693416,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: '15',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '15',
+  from: '584247182145'
 }
