@@ -275,7 +275,11 @@ const flowBolivar = addKeyword(['15'], { sensitive: true }).addAnswer(
     }
 );
 
-const flowTiendas = addKeyword(['1','tiendas', 'sucursales'], { sensitive: true }).addAnswer(
+var locacion = ''
+const flowTiendas = addKeyword(['1','tiendas', 'sucursales'], { sensitive: true }).addAnswer('Indíquenos,  por favor indiquenos la ciudad donde se encuentra.',{capture:true},(ctx,{fallBack}) =>{
+    var locacion = ctx.body
+    console.log(locacion)
+}).addAnswer(
     [
         'Por favor indique el número de la ciudad de interes para obtener información de las sucursales disponibles:',
         '🏪 Lista de tiendas por ciudad:',
@@ -302,7 +306,7 @@ const flowTiendas = addKeyword(['1','tiendas', 'sucursales'], { sensitive: true 
     flowMerida,flowAnzoategui,flowNuevaEsparta,flowBolivar]
 );
 
-const flowCatalogo = addKeyword(['2','ped']).addAnswer(
+const flowCatalogo = addKeyword(['2','ped'], { sensitive: true }).addAnswer(
     [
         '¿Qué catálogo desea ver? Escriba el número de la opción:',
         '1. Novedades 2023',
@@ -347,7 +351,7 @@ const flowGracias = addKeyword(['gracias', 'grac'], { sensitive: true }).addAnsw
     [flowSecundario]
 )
 
-const flowReclamosSugerencias = addKeyword(['6']).addAnswer(
+const flowReclamosSugerencias = addKeyword(['6'], { sensitive: true }).addAnswer(
     ['¿En qué podemos ayudarte?'],{capture:true},
     (ctx,{fallBack,endFlow}) => {
         const horaActual = new Date().getHours();
