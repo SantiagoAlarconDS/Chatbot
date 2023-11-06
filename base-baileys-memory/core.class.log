@@ -2,26 +2,131 @@
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: 'BFE7827AE0E486C21F447813AC3FF945',
+    id: '77EBC231BB8EB16BF9D203D732C53308',
     participant: undefined
   },
-  messageTimestamp: 1698701554,
+  messageTimestamp: 1699222105,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
-    conversation: 'Jl',
+    conversation: 'Ola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Jl',
+  body: 'Ola',
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7d27ad43-9795-4477-be5b-e64e319030d0',
-  keyword: 'key_12e1e679-d0a4-4c57-8d03-5d7fa52b6624',
-  answer: '🏪 Lista de tiendas por ciudad:\n' +
+  ref: 'ans_72c67830-9dbf-4188-a8f3-25f1bcf1d14b',
+  keyword: 'key_30468fd1-4ccd-42e0-8d37-db7f12827a2c',
+  answer: '¡Gracias por contactar a *Prosein*! 🙌🏼.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 1500,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'ea4ed054e6a317eece4abf2021fb5d00'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e4208757-f844-4186-9b44-48c806e79df4',
+  keyword: 'ans_72c67830-9dbf-4188-a8f3-25f1bcf1d14b',
+  answer: 'Indíquenos,  por favor sus siguientes datos: Nombre, apellido y correo electrónico.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '698d76847813e9692830451c3f9106d2'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: 'B9B57A9BCBE9C25E9977691D90264376',
+    participant: undefined
+  },
+  messageTimestamp: 1699222108,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: 'Kkk',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Kkk',
+  from: '584247182145'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_619cd1d6-e631-42f3-a3ae-3a033d268dfc',
+  keyword: 'ans_e4208757-f844-4186-9b44-48c806e79df4',
+  answer: 'Cuéntanos, ¿cómo podemos ayudarte? Escriba el número de la opción que desee:\n' +
+    '👉 *1* Información: Horarios y Ubicaciones\n' +
+    '👉 *2* Catálogo\n' +
+    '👉 *3* Cotizar productos\n' +
+    '👉 *4* Promociones\n' +
+    '👉 *5* Disponibilidad de un Producto\n' +
+    '👉 *6* Reclamos y Sugerencias',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'eb579a8b031c4b62a0160eedf047c80c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: '829B03AAB12FA68C5CC730DB60179E37',
+    participant: undefined
+  },
+  messageTimestamp: 1699222111,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '584247182145'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_dad40f83-fa19-4f0e-8c41-aa351650ab0f',
+  keyword: 'key_ae560516-3ca3-48b9-89e1-4316f92c8cc9',
+  answer: 'Por favor indique el número de la ciudad de interes para obtener información de las sucursales disponibles:\n' +
+    '🏪 Lista de tiendas por ciudad:\n' +
     '1. Caracas\n' +
     '2. Miranda\n' +
     '3. La Guaira\n' +
@@ -44,16 +149,47 @@
     child: null,
     delay: 0,
     idle: null,
-    nested: [],
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object]
+    ],
     keyword: {},
     callback: false
   },
-  refSerialize: '538feadd387f225193389fea0851fa45'
+  refSerialize: 'e820243d95c2e4879216fa92a44ab2aa'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: '1635DD8CCF9F544A4AA249BF81B0E146',
+    participant: undefined
+  },
+  messageTimestamp: 1699222113,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: '15',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '15',
+  from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2b5dcd3a-6ea3-4a19-8465-b1158ebff399',
-  keyword: 'ans_7d27ad43-9795-4477-be5b-e64e319030d0',
-  answer: 'Estas son las categorías disponibles:',
+  ref: 'ans_38f18984-1d6d-43ce-a5d3-a39d19ae8d3c',
+  keyword: 'key_1a700060-63c0-4696-abd4-cc9c7c21b640',
+  answer: '1. Puerto Ordaz',
   options: {
     media: null,
     buttons: [],
@@ -65,16 +201,36 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'ddd7daef539548956b2cb9a24bf5bf81'
+  refSerialize: 'd872369fd18cf7b341450df11ef86ef3'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: 'CEF89037BA84D7A0D532A068B7F7C0AB',
+    id: 'EBD615675828A9782D545CD581B4378C',
     participant: undefined
   },
-  messageTimestamp: 1698701559,
+  messageTimestamp: 1699222114,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '584247182145'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: '0CC8C74FA9C0EBF2C1482A216E844B45',
+    participant: undefined
+  },
+  messageTimestamp: 1699222117,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
@@ -88,9 +244,9 @@
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_db333255-a96f-409e-8a99-2a185098f20e',
-  keyword: 'key_09d10cd2-98ea-4d94-95cc-d6b5a2afadc1',
-  answer: '¡Gracias por contactar a *Prosein*! 🙌🏼. Indíquenos,  por favor sus siguientes datos: Nombre, apellido y correo electrónico.',
+  ref: 'ans_72c67830-9dbf-4188-a8f3-25f1bcf1d14b',
+  keyword: 'key_30468fd1-4ccd-42e0-8d37-db7f12827a2c',
+  answer: '¡Gracias por contactar a *Prosein*! 🙌🏼.',
   options: {
     media: null,
     buttons: [],
@@ -102,12 +258,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'e2a236cf52635effbbbc331f4b6e53ea'
+  refSerialize: 'ea4ed054e6a317eece4abf2021fb5d00'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_42187daf-c617-4850-bd4e-3c17730f8e25',
-  keyword: 'ans_db333255-a96f-409e-8a99-2a185098f20e',
-  answer: 'Nombre',
+  ref: 'ans_e4208757-f844-4186-9b44-48c806e79df4',
+  keyword: 'ans_72c67830-9dbf-4188-a8f3-25f1bcf1d14b',
+  answer: 'Indíquenos,  por favor sus siguientes datos: Nombre, apellido y correo electrónico.',
   options: {
     media: null,
     buttons: [],
@@ -119,105 +275,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'eb0a38d0583e0ab039e5ca27403d8d03'
+  refSerialize: '698d76847813e9692830451c3f9106d2'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: '6E9D57F2AF05E161C327E53BAE4D8E2A',
+    id: 'C083A61AF657EFCC02AAD6C95D908887',
     participant: undefined
   },
-  messageTimestamp: 1698701561,
+  messageTimestamp: 1699222121,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
-    conversation: 'Jj',
+    conversation: 'Dkdkd',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Jj',
+  body: 'Dkdkd',
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e420c0d4-f0e3-4fd0-a8ff-ac5942a75a0f',
-  keyword: 'ans_42187daf-c617-4850-bd4e-3c17730f8e25',
-  answer: 'Apellido',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '56299749005605a0beb9c281eaf11983'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: '730A98E2E13596ECCE9CF1A472DF8AD2',
-    participant: undefined
-  },
-  messageTimestamp: 1698701565,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: 'Kll',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Kll',
-  from: '584247182145'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_969f78d2-1569-434c-a53a-679d670efdf2',
-  keyword: 'ans_e420c0d4-f0e3-4fd0-a8ff-ac5942a75a0f',
-  answer: 'Correo electrónico',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'b395bdc2a40934769bbbc73c574645a0'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: '939295C3FFC2868A8A435F46C7024CCA',
-    participant: undefined
-  },
-  messageTimestamp: 1698701574,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: 'Lsas@',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Lsas@',
-  from: '584247182145'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e2e29481-69a2-4af5-a1c3-f4bab2450b55',
-  keyword: 'ans_969f78d2-1569-434c-a53a-679d670efdf2',
+  ref: 'ans_619cd1d6-e631-42f3-a3ae-3a033d268dfc',
+  keyword: 'ans_e4208757-f844-4186-9b44-48c806e79df4',
   answer: 'Cuéntanos, ¿cómo podemos ayudarte? Escriba el número de la opción que desee:\n' +
     '👉 *1* Información: Horarios y Ubicaciones\n' +
     '👉 *2* Catálogo\n' +
@@ -238,37 +320,101 @@
       [Object], [Object],
       [Object], [Object],
       [Object], [Object],
-      [Object], [Object]
+      [Object]
     ],
     keyword: {},
     callback: false
   },
-  refSerialize: 'a9dee2bbf2b89a59671752b90b7bc9e7'
+  refSerialize: 'eb579a8b031c4b62a0160eedf047c80c'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: '29678D5ADCC9E49C4A076253D981DD0C',
+    id: 'D0C708F5307AED6E02D902222612B2EB',
     participant: undefined
   },
-  messageTimestamp: 1698701575,
+  messageTimestamp: 1699222123,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
-    conversation: '6',
+    conversation: '1',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '6',
+  body: '1',
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0108d861-0573-4568-9ff0-a9954bd2b939',
-  keyword: 'key_ad7f731d-6677-4c3f-9f5d-d815e07fe2a0',
-  answer: '¿En qué podemos ayudarte?',
+  ref: 'ans_dad40f83-fa19-4f0e-8c41-aa351650ab0f',
+  keyword: 'key_ae560516-3ca3-48b9-89e1-4316f92c8cc9',
+  answer: 'Por favor indique el número de la ciudad de interes para obtener información de las sucursales disponibles:\n' +
+    '🏪 Lista de tiendas por ciudad:\n' +
+    '1. Caracas\n' +
+    '2. Miranda\n' +
+    '3. La Guaira\n' +
+    '4. Aragua\n' +
+    '5. Carabobo\n' +
+    '6. Lara\n' +
+    '7. Portuguesa\n' +
+    '8. Barinas\n' +
+    '9. Falcón\n' +
+    '10. Zulia\n' +
+    '11. Trujillo\n' +
+    '12. Mérida\n' +
+    '13. Anzoátegui\n' +
+    '14. Nueva Esparta\n' +
+    '15. Bolívar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e820243d95c2e4879216fa92a44ab2aa'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: 'B7F8791E01F13F6B15346E9995E185BF',
+    participant: undefined
+  },
+  messageTimestamp: 1699222126,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: '11',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '11',
+  from: '584247182145'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_97cd9b6a-c5f2-4bf5-bcad-7c53c122ae76',
+  keyword: 'key_9b675e98-c6a0-4e39-8638-7484da1fff5e',
+  answer: '1. Valera',
   options: {
     media: null,
     buttons: [],
@@ -280,25 +426,45 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '58febcb3f460207a74f366230999d70e'
+  refSerialize: '16513d93dee9876996c93e827f15da9a'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: 'D41713EDC69C7EBCB01A747553E52364',
+    id: '21CEE582321DE07945510EFE0FA195F7',
     participant: undefined
   },
-  messageTimestamp: 1698701577,
+  messageTimestamp: 1699222128,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
-    conversation: 'Hhik',
+    conversation: '2',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hhik',
+  body: '2',
+  from: '584247182145'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: '9809F9A56DD6F3F2919B2B3E335B8927',
+    participant: undefined
+  },
+  messageTimestamp: 1699222129,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
   from: '584247182145'
 }
