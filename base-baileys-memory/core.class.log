@@ -2,25 +2,25 @@
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: '9A1B45F556A7B6B94642E790FA4D7F77',
+    id: 'AD987022599CEF0ECC01D3917C06D498',
     participant: undefined
   },
-  messageTimestamp: 1699302882,
+  messageTimestamp: 1699365454,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
-    conversation: 'Ola',
+    conversation: 'Jdjd',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Ola',
+  body: 'Jdjd',
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c8558763-c705-4045-810e-efb11dc88cb5',
-  keyword: 'key_bdc89598-309f-4f46-a104-0201e32a5dd1',
+  ref: 'ans_66b97ef5-7f7f-40d7-b169-a73c6a35e048',
+  keyword: 'key_aa0bebdc-9b40-4d2b-b843-5ff3336c87c8',
   answer: '¡Gracias por contactar a *Prosein*! 🙌🏼.',
   options: {
     media: null,
@@ -33,11 +33,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'ae4ec9a8d5d801983b0271601ad8b0cf'
+  refSerialize: '3c2bf8e55121b99dbb6300edf3fbd7d1'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_9d9bdbd4-9c2a-41cd-be5a-2889d8fb22a0',
-  keyword: 'ans_c8558763-c705-4045-810e-efb11dc88cb5',
+  ref: 'ans_b58fd8b8-babe-4d55-bed9-a418c63441cf',
+  keyword: 'ans_66b97ef5-7f7f-40d7-b169-a73c6a35e048',
   answer: 'Indíquenos,  por favor sus siguientes datos: Nombre, apellido y correo electrónico.',
   options: {
     media: null,
@@ -50,31 +50,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c5cddc351b8818889b4fd0a82034bd0a'
+  refSerialize: '90af9a04fe9a383d4587787ce54f11be'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: '3AF879FF54AD7CCA0CE69C537FE20004',
+    id: '3FFD3B0A75CBE79B121080FF39D319A4',
     participant: undefined
   },
-  messageTimestamp: 1699302885,
+  messageTimestamp: 1699365456,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
-    conversation: 'Jeje',
+    conversation: 'Jjd',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Jeje',
+  body: 'Jjd',
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_82a471bb-d830-47fa-8203-6c00b120a509',
-  keyword: 'ans_9d9bdbd4-9c2a-41cd-be5a-2889d8fb22a0',
+  ref: 'ans_083dc480-082b-4a44-aee1-688e9fc51206',
+  keyword: 'ans_b58fd8b8-babe-4d55-bed9-a418c63441cf',
   answer: 'Cuéntanos, ¿cómo podemos ayudarte? Escriba el número de la opción que desee:\n' +
     '👉 *1* Información: Horarios y Ubicaciones\n' +
     '👉 *2* Catálogo\n' +
@@ -95,245 +95,21 @@
       [Object], [Object],
       [Object], [Object],
       [Object], [Object],
-      [Object], [Object]
+      [Object]
     ],
     keyword: {},
     callback: false
   },
-  refSerialize: '64fd7d3927b6407409b804e12838eac8'
+  refSerialize: '78cafcd38c6603ada995fbf0a8869bb6'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: '65507092DBD3B65B4D5BB4F6A33C5230',
+    id: '4397F5EA6A7C1D816F606A9CEFDDCFF1',
     participant: undefined
   },
-  messageTimestamp: 1699302888,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: 'Shhs123@gmail.com',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Shhs123@gmail.com',
-  from: '584247182145'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: '8A7E9C193480B39375D5E95984DE0641',
-    participant: undefined
-  },
-  messageTimestamp: 1699302891,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '584247182145'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: '92F8A5733BD6CACCD8D2BC5C8A6D6FF3',
-    participant: undefined
-  },
-  messageTimestamp: 1699302896,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: 'Ola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ola',
-  from: '584247182145'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c8558763-c705-4045-810e-efb11dc88cb5',
-  keyword: 'key_bdc89598-309f-4f46-a104-0201e32a5dd1',
-  answer: '¡Gracias por contactar a *Prosein*! 🙌🏼.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 1500,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'ae4ec9a8d5d801983b0271601ad8b0cf'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_9d9bdbd4-9c2a-41cd-be5a-2889d8fb22a0',
-  keyword: 'ans_c8558763-c705-4045-810e-efb11dc88cb5',
-  answer: 'Indíquenos,  por favor sus siguientes datos: Nombre, apellido y correo electrónico.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'c5cddc351b8818889b4fd0a82034bd0a'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: 'F301611C5B6AE4FCDD8F834E0452F487',
-    participant: undefined
-  },
-  messageTimestamp: 1699302899,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: 'Sj',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Sj',
-  from: '584247182145'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_82a471bb-d830-47fa-8203-6c00b120a509',
-  keyword: 'ans_9d9bdbd4-9c2a-41cd-be5a-2889d8fb22a0',
-  answer: 'Cuéntanos, ¿cómo podemos ayudarte? Escriba el número de la opción que desee:\n' +
-    '👉 *1* Información: Horarios y Ubicaciones\n' +
-    '👉 *2* Catálogo\n' +
-    '👉 *3* Cotizar productos\n' +
-    '👉 *4* Promociones\n' +
-    '👉 *5* Disponibilidad de un Producto\n' +
-    '👉 *6* Reclamos y Sugerencias',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '64fd7d3927b6407409b804e12838eac8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: '70AAB59DDBAD070CB22DA8E0D15AD943',
-    participant: undefined
-  },
-  messageTimestamp: 1699302901,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '584247182145'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_672e1db4-7207-4577-b821-f155b984f977',
-  keyword: 'key_98b98a6b-71c4-4c52-9b46-7620119e1ba7',
-  answer: '¿Qué catálogo desea ver? Escriba el número de la opción:\n' +
-    '1. Novedades 2023\n' +
-    '2. Novedades Brasil\n' +
-    '3. Vinil\n' +
-    '4. General\n' +
-    'Puede encontrar nuestros catálogos en el siguiente enlace:\n' +
-    'https://prosein.com.ve/catalogos-en-pdf/',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '76d5559c04dccc7b01517dab95f3c6b4'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: '6CAB3855063E746B0D0862C1781E3367',
-    participant: undefined
-  },
-  messageTimestamp: 1699302904,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '584247182145'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a6cd04ba-1829-4260-a22a-7e086dece9a9',
-  keyword: 'ans_672e1db4-7207-4577-b821-f155b984f977',
-  answer: '¿Deseas cotizar algún producto?\n👉 *1* Si\n👉 *2* No',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [ [Object], [Object], [Object], [Object], [Object] ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'f773b1c1d4a3a11c26471d017884428d'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: 'DCF57E32359F893229779A95E855C93D',
-    participant: undefined
-  },
-  messageTimestamp: 1699302905,
+  messageTimestamp: 1699365457,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
@@ -347,47 +123,11 @@
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f1e1677c-6611-4396-a31a-aed63b53e99c',
-  keyword: 'key_c8854544-ce64-4fc8-9226-24b552558f6e',
-  answer: 'Indíquenos,  por favor indiquenos la ciudad donde se encuentra.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '435749aa2adba4873e6b4380f24b2e88'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: 'EFF053AAFE0E01F71369A6CDEAF38A08',
-    participant: undefined
-  },
-  messageTimestamp: 1699302909,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: 'Lola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Lola',
-  from: '584247182145'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_84dede41-4c73-4c5a-9d4f-9c2574c6d859',
-  keyword: 'ans_f1e1677c-6611-4396-a31a-aed63b53e99c',
-  answer: 'Por favor indique el número de la ciudad de interes para obtener información de las sucursales disponibles:\n' +
-    '🏪 Lista de tiendas por ciudad:\n' +
+  ref: 'ans_27bbf77e-2e2f-430b-8292-b8ee0e7b3c16',
+  keyword: 'key_e13668b4-cd77-4405-bad1-e6099147c77e',
+  answer: 'Por favor indique el número la ciudad o estado de interes para obtener información de las sucursales disponibles:\n' +
+    '\n' +
+    '\n' +
     '1. Caracas\n' +
     '2. Miranda\n' +
     '3. La Guaira\n' +
@@ -425,11 +165,68 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'de5ffe9a79ea11935e6a48199274fb3e'
+  refSerialize: 'e54a63fb821e51fe5968f2c3263a5cc9'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: 'B2B3868C555FAE03704BA8EAAD9D7D57',
+    participant: undefined
+  },
+  messageTimestamp: 1699365483,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: '15',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '15',
+  from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c8558763-c705-4045-810e-efb11dc88cb5',
-  keyword: 'key_bdc89598-309f-4f46-a104-0201e32a5dd1',
+  ref: 'ans_733ceb49-f787-4249-be01-d0ee89543956',
+  keyword: 'key_44ab7d63-0930-4ef2-8b0b-1ec349c7d401',
+  answer: 'En Bolivar estamos ubicados en Puerto Ordaz: Av. Las Américas, edif. Otto, mezzanina #06. Horario de lunes a viernes de 8:00am a 4:00pm.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f026b7b967212f114b1636d9020ef908'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584247182145@s.whatsapp.net',
+    fromMe: false,
+    id: '81CCF44E614851BBA6ADB03F95D487B3',
+    participant: undefined
+  },
+  messageTimestamp: 1699365491,
+  pushName: 'S.A',
+  broadcast: false,
+  message: Message {
+    conversation: 'Sjsj',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Sjsj',
+  from: '584247182145'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_66b97ef5-7f7f-40d7-b169-a73c6a35e048',
+  keyword: 'key_aa0bebdc-9b40-4d2b-b843-5ff3336c87c8',
   answer: '¡Gracias por contactar a *Prosein*! 🙌🏼.',
   options: {
     media: null,
@@ -442,11 +239,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'ae4ec9a8d5d801983b0271601ad8b0cf'
+  refSerialize: '3c2bf8e55121b99dbb6300edf3fbd7d1'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_9d9bdbd4-9c2a-41cd-be5a-2889d8fb22a0',
-  keyword: 'ans_c8558763-c705-4045-810e-efb11dc88cb5',
+  ref: 'ans_b58fd8b8-babe-4d55-bed9-a418c63441cf',
+  keyword: 'ans_66b97ef5-7f7f-40d7-b169-a73c6a35e048',
   answer: 'Indíquenos,  por favor sus siguientes datos: Nombre, apellido y correo electrónico.',
   options: {
     media: null,
@@ -459,31 +256,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c5cddc351b8818889b4fd0a82034bd0a'
+  refSerialize: '90af9a04fe9a383d4587787ce54f11be'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: '1518E51BD95D359A2BBABFC1570DB06D',
+    id: '4DE48787A7638D1A8F29CD7134859A7E',
     participant: undefined
   },
-  messageTimestamp: 1699302920,
+  messageTimestamp: 1699365495,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
-    conversation: 'Jsjs',
+    conversation: 'Uejw',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Jsjs',
+  body: 'Uejw',
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_82a471bb-d830-47fa-8203-6c00b120a509',
-  keyword: 'ans_9d9bdbd4-9c2a-41cd-be5a-2889d8fb22a0',
+  ref: 'ans_083dc480-082b-4a44-aee1-688e9fc51206',
+  keyword: 'ans_b58fd8b8-babe-4d55-bed9-a418c63441cf',
   answer: 'Cuéntanos, ¿cómo podemos ayudarte? Escriba el número de la opción que desee:\n' +
     '👉 *1* Información: Horarios y Ubicaciones\n' +
     '👉 *2* Catálogo\n' +
@@ -504,21 +301,21 @@
       [Object], [Object],
       [Object], [Object],
       [Object], [Object],
-      [Object], [Object]
+      [Object]
     ],
     keyword: {},
     callback: false
   },
-  refSerialize: '64fd7d3927b6407409b804e12838eac8'
+  refSerialize: '78cafcd38c6603ada995fbf0a8869bb6'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: '253116302BF8D425CF304A64D06B33FD',
+    id: '8F55B647EF3951DA4A92CFFB1171C4F5',
     participant: undefined
   },
-  messageTimestamp: 1699302924,
+  messageTimestamp: 1699365498,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
@@ -532,47 +329,11 @@
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f1e1677c-6611-4396-a31a-aed63b53e99c',
-  keyword: 'key_c8854544-ce64-4fc8-9226-24b552558f6e',
-  answer: 'Indíquenos,  por favor indiquenos la ciudad donde se encuentra.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '435749aa2adba4873e6b4380f24b2e88'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: '6732150EEF2CC685E2150AFDAD320912',
-    participant: undefined
-  },
-  messageTimestamp: 1699302927,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: 'Uew',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Uew',
-  from: '584247182145'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_84dede41-4c73-4c5a-9d4f-9c2574c6d859',
-  keyword: 'ans_f1e1677c-6611-4396-a31a-aed63b53e99c',
-  answer: 'Por favor indique el número de la ciudad de interes para obtener información de las sucursales disponibles:\n' +
-    '🏪 Lista de tiendas por ciudad:\n' +
+  ref: 'ans_27bbf77e-2e2f-430b-8292-b8ee0e7b3c16',
+  keyword: 'key_e13668b4-cd77-4405-bad1-e6099147c77e',
+  answer: 'Por favor indique el número la ciudad o estado de interes para obtener información de las sucursales disponibles:\n' +
+    '\n' +
+    '\n' +
     '1. Caracas\n' +
     '2. Miranda\n' +
     '3. La Guaira\n' +
@@ -610,16 +371,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'de5ffe9a79ea11935e6a48199274fb3e'
+  refSerialize: 'e54a63fb821e51fe5968f2c3263a5cc9'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584247182145@s.whatsapp.net',
     fromMe: false,
-    id: 'E12A0DD2D6975EAECDF1B6678969AE53',
+    id: '15B6234A49763C371478A831F5F36E75',
     participant: undefined
   },
-  messageTimestamp: 1699302929,
+  messageTimestamp: 1699365503,
   pushName: 'S.A',
   broadcast: false,
   message: Message {
@@ -633,9 +394,12 @@
   from: '584247182145'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e4b216a4-b92d-4fc4-a4f6-7108073823b4',
-  keyword: 'key_b198726a-79b2-4d93-b417-fe0f88100d76',
-  answer: '1. Boleíta Norte\n' +
+  ref: 'ans_da60bd7c-bfc0-437c-97bf-b6b96d71d6e9',
+  keyword: 'key_16370683-41e6-4de9-8e82-ce303fb06789',
+  answer: 'Por favor indica el numero de la sucursal de la cual deseas tener información\n' +
+    '\n' +
+    '\n' +
+    '1. Boleíta Norte\n' +
     '2. La Castellana\n' +
     '3. El Bosque\n' +
     '4. Las Mercedes\n' +
@@ -652,25 +416,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'b532dd301ea04879a5e17640e1ba74ac'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584247182145@s.whatsapp.net',
-    fromMe: false,
-    id: '213C2D4B52041D1502F9FFE7A8B2AF3B',
-    participant: undefined
-  },
-  messageTimestamp: 1699302932,
-  pushName: 'S.A',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '584247182145'
+  refSerialize: '0e251eb9cf580e98fb2d784d7ef80f4b'
 }

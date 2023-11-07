@@ -33,7 +33,9 @@ console.log(dateTime)
 
 
 const flowCaracas = addKeyword(['1'],{ sensitive: true }).addAnswer(
-    ["1. Boleíta Norte",
+    
+    ["Por favor indica el numero de la sucursal de la cual deseas tener información\n\n",
+    "1. Boleíta Norte",
     "2. La Castellana",
     "3. El Bosque",
     "4. Las Mercedes",
@@ -62,8 +64,9 @@ const flowCaracas = addKeyword(['1'],{ sensitive: true }).addAnswer(
 
 const flowMiranda = addKeyword(['2'],{ sensitive: true }).addAnswer(
     [ 
-        "1. Los Teques | El Tambor: Av. Williams Torbay, local Nº 21 y 23, Bajada El Tambor, zona industrial El Tambor, Sector La Lomita. Horario de lunes a sábado 8:00am a 2:00pm.",
-        "2. Los Teques | San Antonio: Av. Chaid Torbay, edificio Industrial Campestre, piso 1, local 1, sector ind. Las Minas. San Antonio de los Altos. Al lado de autolavado Twister. Horario de lunes a sábado 8:00am a 2:00pm."
+        "Por favor indica el numero de la sucursal de la cual deseas tener información\n\n",
+        "1. Los Teques | El Tambor",
+        "2. Los Teques | San Antonio"
     ],
     {capture:true},
     (ctx,{fallBack,flowDynamic}) =>
@@ -79,20 +82,13 @@ const flowMiranda = addKeyword(['2'],{ sensitive: true }).addAnswer(
 
 const flowLaguaira = addKeyword(['3'],{ sensitive: true }).addAnswer(
     [ 
-        "1. La Guaira: Av. La Armada, sector la lucha, local Prosein. Frente a Farmatodo, Catia La Mar. Horario de lunes a viernes 8:00am a 5:00pm y sábado 8:00am a 3:00pm.",
-    ],
-    {capture:true},
-    (ctx,{fallBack,flowDynamic}) =>
-    {
-        if (ctx.body == '1') {
-            flowDynamic("La Guaira: Av. La Armada, sector la lucha, local Prosein. Frente a Farmatodo, Catia La Mar. Horario de lunes a viernes 8:00am a 5:00pm y sábado 8:00am a 3:00pm.");
-        } else {
-            return fallBack();
-        }
-})
+        "En La guaira estamos ubicados en Av. La Armada, sector la lucha, local Prosein. Frente a Farmatodo, Catia La Mar. Horario de lunes a viernes 8:00am a 5:00pm y sábado 8:00am a 3:00pm.",
+    ]
+)
 
 const flowAragua = addKeyword(['4'], { sensitive: true }).addAnswer(
     [
+        "Por favor indica el numero de la sucursal de la cual deseas tener información\n\n",
         "1. Maracay | La Morita",
         "2. Maracay | Los Cedros"
     ],
@@ -111,51 +107,28 @@ const flowAragua = addKeyword(['4'], { sensitive: true }).addAnswer(
 
 const flowCarabobo = addKeyword(['5'], { sensitive: true }).addAnswer(
     [
-        "1. Valencia"
-    ],
-    { capture: true },
-    (ctx, {fallBack,flowDynamic}) => {
-        if (ctx.body === '1') {
-            flowDynamic("Valencia: Av. Monseñor Adams, calle 161, Urbanización El Viñedo, casa 104-61. Horario de lunes a viernes 8:30am a 5:00pm y sábado de 8:30am a 2:00pm.");
-        } else {
-            return fallBack();
-        }
-    }
+        "En Carabobo estamos ubicados en Valencia: Av. Monseñor Adams, calle 161, Urbanización El Viñedo, casa 104-61. Horario de lunes a viernes 8:30am a 5:00pm y sábado de 8:30am a 2:00pm."
+    ]
 );
 
 
 const flowLara = addKeyword(['6'], { sensitive: true }).addAnswer(
     [
-        "1. Barquisimeto"
-    ],
-    { capture: true },
-    (ctx, {fallBack,flowDynamic}) => {
-        if (ctx.body === '1') {
-            flowDynamic("Barquisimeto: Urb. Nueva Segovia, calle 6 con carrera 2 y 3. Horario de lunes a viernes de 8:30am a 5:30pm y sábado de 9:30am a 5:00pm.");
-        } else {
-            return fallBack();
-        }
-    }
+        "En Lara estamos ubicados en Barquisimeto: Urb. Nueva Segovia, calle 6 con carrera 2 y 3. Horario de lunes a viernes de 8:30am a 5:30pm y sábado de 9:30am a 5:00pm."
+    ]
 );
 
 
 const flowPortuguesa = addKeyword(['7'], { sensitive: true }).addAnswer(
     [
-        "14. Acarigua: Av. Circunvalación Sur, entre calles 3 y 4, Barrio San Antonio, Local Prosein, zona industrial. Horario de lunes a viernes de 8:00am a 5:00pm y sábado de 8:00am a 1:00pm."
-    ],
-    { capture: true },
-    (ctx, {fallBack,flowDynamic}) => {
-        if (ctx.body === '14') {
-            flowDynamic("Acarigua: Av. Circunvalación Sur, entre calles 3 y 4, Barrio San Antonio, Local Prosein, zona industrial. Horario de lunes a viernes de 8:00am a 5:00pm y sábado de 8:00am a 1:00pm.");
-        } else {
-            return fallBack();
-        }
-    }
+        "En Portuguesa estamos ubicados en Acarigua: Av. Circunvalación Sur, entre calles 3 y 4, Barrio San Antonio, Local Prosein, zona industrial. Horario de lunes a viernes de 8:00am a 5:00pm y sábado de 8:00am a 1:00pm."
+    ]
 );
 
 
 const flowBarinas = addKeyword(['8'], { sensitive: true }).addAnswer(
     [
+        "Por favor indica el numero de la sucursal de la cual deseas tener información:\n\n",
         "1. Av. Libertad",
         "2. Alto Barinas"
     ],
@@ -173,20 +146,13 @@ const flowBarinas = addKeyword(['8'], { sensitive: true }).addAnswer(
 
 const flowFalcon = addKeyword(['9'], { sensitive: true }).addAnswer(
     [
-        "1. Punto Fijo"
-    ],
-    { capture: true },
-    (ctx, {fallBack,flowDynamic}) => {
-        if (ctx.body === '1') {
-            flowDynamic("Punto Fijo: Av. Ollarvides entre Av. Táchira y Girardot, sector Parcelamiento El Jardín, local Prosein. Horario de lunes a viernes de 8:00am a 5:00pm.");
-        } else {
-            return fallBack();
-        }
-    }
+        "En Falcon estamos ubicados en Punto Fijo: Av. Ollarvides entre Av. Táchira y Girardot, sector Parcelamiento El Jardín, local Prosein. Horario de lunes a viernes de 8:00am a 5:00pm."
+    ]
 );
 
 const flowZulia = addKeyword(['10'], { sensitive: true }).addAnswer(
     [
+        "Por favor indica el numero de la sucursal de la cual deseas tener información\n\n",
         "1. Maracaibo | Calle 70 ",
         "2. Maracaibo | Milagro Norte"
     ],
@@ -204,20 +170,13 @@ const flowZulia = addKeyword(['10'], { sensitive: true }).addAnswer(
 
 const flowTrujillo = addKeyword(['11'], { sensitive: true }).addAnswer(
     [
-        "1. Valera"
-    ],
-    { capture: true },
-    (ctx, {fallBack,flowDynamic}) => {
-        if (ctx.body === '1') {
-            flowDynamic("Valera: Av. Bolívar, entre calle 26 y 27, Qta Yraidis, sector Las Acacias. Punto de referencia diagonal a Farmatodo. Horario de lunes a viernes 8:30am a 5:00pm y sábado 8:30am a 1:00pm.");
-        } else {
-            return fallBack();
-        }
-    }
+        "En Trujillo estamos ubicados en Valera: Av. Bolívar, entre calle 26 y 27, Qta Yraidis, sector Las Acacias. Punto de referencia diagonal a Farmatodo. Horario de lunes a viernes 8:30am a 5:00pm y sábado 8:30am a 1:00pm."
+    ]
 );
 
 const flowMerida = addKeyword(['12'], { sensitive: true }).addAnswer(
     [
+        "Por favor indica el numero de la sucursal de la cual deseas tener información\n\n",
         "1. Ejido",
         "2. Av. Las Américas"
     ],
@@ -235,54 +194,26 @@ const flowMerida = addKeyword(['12'], { sensitive: true }).addAnswer(
 
 const flowAnzoategui = addKeyword(['13'], { sensitive: true }).addAnswer(
     [
-        "1. Lechería"
-    ],
-    { capture: true },
-    (ctx, {fallBack,flowDynamic}) => {
-        if (ctx.body === '1') {
-            flowDynamic("Lechería: Av. Intercomunal Jorge Rodríguez, Sector Las Garzas, C.C. Las Garzas, Local D. Horario de lunes a viernes 8:00am a 5:00pm y sábado 8:00am a 1:00pm.");
-        } else {
-            return fallBack();
-        }
-    }
-);
+        "En Anzoategui estamos ubicados en Lechería: Av. Intercomunal Jorge Rodríguez, Sector Las Garzas, C.C. Las Garzas, Local D |Horario de lunes a viernes 8:00am a 5:00pm y sábado 8:00am a 1:00pm",
+    ]
+)
 
 const flowNuevaEsparta = addKeyword(['14'], { sensitive: true }).addAnswer(
     [
-        "1. Porlamar"
-    ],
-    { capture: true },
-    (ctx, {fallBack,flowDynamic}) => {
-        if (ctx.body === '1') {
-            flowDynamic("Porlamar: Av. Circunvalación José Asunción Rodríguez, a 100 mts del mercado de Conejeros. Horario de lunes a viernes 8:30am a 5:00pm y sábado de 8:30am a 2:00pm.");
-        } else {
-            return fallBack();
-        }
-    }
+        "En Nueva Esparta estamos ubicados en Porlamar: Av. Circunvalación José Asunción Rodríguez, a 100 mts del mercado de Conejeros. Horario de lunes a viernes 8:30am a 5:00pm y sábado de 8:30am a 2:00pm."
+    ]
 );
 
 const flowBolivar = addKeyword(['15'], { sensitive: true }).addAnswer(
     [
-        "1. Puerto Ordaz"
-    ], 
-    {capture: true}, (ctx, {fallBack,flowDynamic}) => 
-    {
-        if (ctx.body === '1') {
-            flowDynamic("Puerto Ordaz: Av. Las Américas, edif. Otto, mezzanina #06. Horario de lunes a viernes de 8:00am a 4:00pm.");
-        } else {
-            return fallBack();
-        }
-    }
+        "En Bolivar estamos ubicados en Puerto Ordaz: Av. Las Américas, edif. Otto, mezzanina #06. Horario de lunes a viernes de 8:00am a 4:00pm.",
+    ]
 );
 
 var locacion = ''
-const flowTiendas = addKeyword(['1','tiendas', 'sucursales'], { sensitive: true }).addAnswer('Indíquenos,  por favor indiquenos la ciudad donde se encuentra.',{capture:true},(ctx,{fallBack}) =>{
-    var locacion = ctx.body
-    console.log(locacion)
-}).addAnswer(
+const flowTiendas = addKeyword(['1','3','4','5','tiendas', 'sucursales'], { sensitive: true }).addAnswer(
     [
-        'Por favor indique el número de la ciudad de interes para obtener información de las sucursales disponibles:',
-        '🏪 Lista de tiendas por ciudad:',
+        'Por favor indique el número la ciudad o estado de interes para obtener información de las sucursales disponibles:\n',
         '1. Caracas',
         '2. Miranda',
         '3. La Guaira',
@@ -341,16 +272,6 @@ const flowCatalogo = addKeyword(['2','ped'], { sensitive: true }).addAnswer(
 )
 
 
-
-const flowGracias = addKeyword(['gracias', 'grac'], { sensitive: true }).addAnswer(
-    [
-        'Muchas gracias por ponerte en contacto con Prosein. No olvides seguirnos en nuestras redes sociales y página web.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
 const flowReclamosSugerencias = addKeyword(['6'], { sensitive: true }).addAnswer(
     ['¿En qué podemos ayudarte?'],{capture:true},
     (ctx,{fallBack,endFlow}) => {
@@ -366,7 +287,7 @@ const flowReclamosSugerencias = addKeyword(['6'], { sensitive: true }).addAnswer
 });
 
 let nombre = ''
-const flowPrincipal = addKeyword(['hola', 'ola', 'alo'])
+const flowPrincipal = addKeyword(EVENTS.WELCOME)
 .addAnswer('¡Gracias por contactar a *Prosein*! 🙌🏼.',{delay:1500})
     .addAnswer('Indíquenos,  por favor sus siguientes datos: Nombre, apellido y correo electrónico.',{capture:true},(ctx,{fallBack}) =>{
         if(!ctx.body.includes('@')) {
